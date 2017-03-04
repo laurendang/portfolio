@@ -1,22 +1,30 @@
 /* Feuille de styles */
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 /* Styles de texte */
 .project__title {
   font-family: 'Playfair Display', serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .project__type {
-  font-size: 1em;
+  line-height: 2em;
+  font-size: 0.9em;
 }
 
 .vertical__align {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.center__align {
+
 }
 
 .menu__a {
@@ -32,16 +40,19 @@ h1 {
 h2 {
   font-size: 1em;
   font-weight: 300;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   line-height: 3em;
+}
+
+span {
+  font-size: 1em;
+  font-weight: 900;
 }
 
 a {
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 
 /* Header */
@@ -54,6 +65,11 @@ a {
   color: #fff;
 }
 
+.btm-clip-path {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
+
 /* Portfolio */
 #portfolio {
   width: 100%;
@@ -64,9 +80,9 @@ a {
 }
 
 .portfolio__project {
-  width: 500px;
-  height: 350px;
-  margin: 15px;
+  width: 450px;
+  height: 450px;
+  margin: 30px;
   background-color: #F9F8F6;
   text-align: center;
 }
@@ -74,7 +90,7 @@ a {
 /* Detail */
 #detail {
   width: 100%;
-  background-color: #F76C6C;
+  background-color: #F9F8F6;
   display: flex;
   flex-direction: column;
 }
@@ -87,8 +103,23 @@ a {
 
 #detail__project {
   width: 100%;
-  height: 100px;
-  background-color: red;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.desc__project {
+  width: 100%;
+  background-color: white
+}
+
+.img__project {
+  width: 450px;
+  height: 450px;
+  margin: 30px;
+  background-color: #fff;
+  text-align: center;
 }
 
 #menu__nav {
