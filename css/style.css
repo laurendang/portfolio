@@ -1,9 +1,64 @@
-/* IMPORT FONT */
-<style>
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
-</style>
+/* Feuille de styles */
 
-/*Feuille de styles */
 
 /* Styles de texte */
+.project__title {
+  font-size: 1.5em;
+}
+
+.project__type {
+  font-size: 1em;
+}
+
+.vertical__align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Header */
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #9DC9E4;
+
+  text-align: center;
+  color: #fff;
+}
+
+/* Portfolio */
+#portfolio {
+  width: 100%;
+  background-color: red;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio__project {
+  width: 500px;
+  height: 350px;
+  margin: 15px;
+  background-color: #F9F8F6;
+  text-align: center;
+}
+
+/* Detail */
+#detail {
+  width: 100%;
+  height: 100px;
+  background-color: orange;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: #F9F8F6;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
