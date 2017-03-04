@@ -1,0 +1,202 @@
+/* IMPORT FONT */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+</style>
+
+/*Feuille de styles */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-align {
+  flex-direction: column;
+}
+
+/* Styles de texte */
+body h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+body h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 1.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Header */
+#header {
+  height: 400px;
+  color: #fff;
+  text-align: center;
+  background-color: #9DC9E4;
+  position: relative;
+}
+
+#header a {
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  height: 100px;
+  /*background-color: #F9F8F6;*/
+  background-color: red;
+  color: #B3B3B3;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+#footer a {
+  color: #B3B3B3;
+}
+
+/* Conteneur projets */
+.project-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.card {
+  background-color: #F9F8F6;
+  width: 500px;
+  height: 350px;
+  margin: 15px;
+  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);*/
+
+}
+
+/* Détail projet */
+.menu1 {
+  width: 100%;
+  position: relative;
+  /*text-align: center;*/
+}
+
+.menu2 {
+  position: absolute;
+  bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: flex;
+  padding: 15px;
+  text-decoration: none;
+  background-color: red;
+}
+
+.project-detail {
+  height: 500px;
+}
+
+.project-content {
+  position: absolute;
+  background-color: #F9F8F6;
+  width: 100%;
+  height: 100%;
+}
+
+/* Diagonales */
+.bottom-clip-path {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
+
+.top-clip-path {
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+}
+
+/* Élément de design */
+.it-stroke {
+  position: absolute;
+  bottom: 0;
+}
+
+.dot-border {
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.dot-fill {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.stroke {
+  width: 1px;
+  height: 80px;
+  background-color: #fff;
+}
+
+
+
+
+/* MENU */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  background-color: blue;
+}
+
+#menu-back {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  /*background-color: green;*/
+}
+
+.ic-back {
+  padding: 15px;
+  background-color: red;
+}
+
+#detail-project {
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+}
+
+#menu-nav {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /*background-color: green;*/
+}
+
+.ic-nav {
+  padding: 15px;
+  background-color: red;
+}
